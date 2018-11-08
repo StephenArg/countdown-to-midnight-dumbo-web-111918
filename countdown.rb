@@ -5,7 +5,6 @@ end
 
 def countdown(number)
   countdown = number
-  countdown < 5 ? countdown_with_sleep(5) : countdown_with_sleep
   while countdown > 0
     countdown_with_sleep
     puts '#{countdown} SECOND(S)!'
